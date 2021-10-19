@@ -16,7 +16,7 @@ const Home = () => {
                     key = {service.id}
                     service = {service}
                 
-                ></Default>).slice(0,4)
+                ></Default>).slice(0,6)
             }
             
           
