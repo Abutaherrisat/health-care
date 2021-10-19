@@ -1,11 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link,useLocation,useHistory } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import './Login.css'
 
 
 const Login = () => {
   const { signInUsingGoogle, handleEmailChange, handlePassWordChange, handleRegistration, isLogin, error, toggleLogIn } = useAuth()
+  
+  
   return (
 
     <div className='d-flex justify-content-center'>

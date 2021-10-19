@@ -1,11 +1,13 @@
 import { useState } from "react"
 
+
 import { getAuth, signInWithPopup, GoogleAuthProvider,createUserWithEmailAndPassword, signInWithEmailAndPassword,  signOut,onAuthStateChanged  } from "firebase/auth";
 import initializeAuthentication from "../components/Firebase/firebase.init";
-import { useEffect } from "react/cjs/react.development";
+import { useEffect } from "react";
 
 
 initializeAuthentication()
+
 
 const useFirebase = () => {
     const [user, setUser] = useState({});
@@ -14,6 +16,7 @@ const useFirebase = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [isLogin,setIsLogin] = useState(false)
+    
    
 
     const auth = getAuth()
@@ -21,6 +24,7 @@ const useFirebase = () => {
     const signInUsingGoogle = () => {
         signInWithPopup(auth, googleProvider)
             .then(result => {
+           
                 console.log(result.user);
                 setUser(result.user);
             })
@@ -70,16 +74,12 @@ const useFirebase = () => {
         setIsLogin(e.target.checked);
     
       }
-      const handleSetPassword = e => {
-        setEnterPassword(e.target.value);
-      }
-
-    
 
     const logout = () => {
         signOut(auth)
             .then(() => {
                 setUser({});
+                window.location.reload();
             })
     }
     useEffect(() =>{
