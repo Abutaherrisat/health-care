@@ -1,0 +1,19 @@
+.service-style {
+    background-color: #17a2b8;
+    color: whitesmoke;
+    margin: 20px;
+    border-radius: 15px;
+    width: 300px;
+    padding-top: 25px;
+}
+
+
+.img-style {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
