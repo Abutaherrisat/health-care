@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Default.css'
 
 const Default = (props) => {
-    const { name, img, price ,id} = props.service
+    const { name, img, price ,id,description} = props.service
     return (
         <div className ="row">
             <div className="service-style">
@@ -13,6 +13,7 @@ const Default = (props) => {
                 <div className="card-body mx-3 pt-5">
                     <h4>NAME : {name}</h4>
                     <p>PRICE : {price}</p>
+                    <p>description : {description}</p>
                     <Link to= {`/details/${id}`}>
                         <button className="btn-regular text-center ">Select Order</button>
 
