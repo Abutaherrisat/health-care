@@ -28,13 +28,14 @@ const Footer = () => {
                     <p className="icon"><i class="fab fa-twitter"></i> Twitter</p>
                 </div>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
+            <div className="col-lg-3 col-md-3 col-sm-6">
                 <div className=" ms-5 text-white ">
                     <h3>pay with</h3>
-                    <p>BKASH</p>
-                    <p>G-pay</p>
+                    <p>Mstered Card</p>
+                    <p>Paypal</p>
                     <p>NOGOD</p>
                     <p>ROCKET</p>
+                    <img src="https://i.ibb.co/Qfvn4z6/payment.png" alt="" />
                 </div>
             </div>
             <p className="text-center text-white"> Copyright © 2021 medicine-care.com</p>
