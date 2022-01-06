@@ -11,13 +11,14 @@
 }
 
 .items:hover {
-  background-color: lightgreen;
+  background-color: rgb(136, 153, 252);
+  
   
 }
 
 .header-container {
   /* background-color: rgb(137, 144, 112); */
-  background-color: teal;
+  background-color:grey;
   padding: 10px;
 }
 

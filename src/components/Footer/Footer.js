@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="footer-container row  d-flex w-100 pt-10">
             <div className="col-lg-4  col-md-4 col-sm-12">
                 <div className=" ms-5 text-white ">
-                    <h2>Medicine Care</h2>
+                    <h3>Medicine Care</h3>
                     <p>{location} Level-4, 34, Awal Centre, Banani, Dhaka</p>
                     <p>{message} Official: medicinecare@gmail.com</p>
                     <p>{phone} Helpline : 01322810867 (Available : 09:00am to 7:00pm)</p>
@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-3 col-md-3 col-sm-6">
                 <div className=" ms-5 text-white ">
-                    <h3>pay with</h3>
+                    <h4>pay with</h4>
                     <p>Mstered Card</p>
                     <p>Paypal</p>
                     <p>NOGOD</p>

@@ -4,16 +4,17 @@ import './banner.css'
 
 const Banner = () => {
     return (
-        <div>
-            <div className="banner-container row">
-                <div className="describe col-md-6">
-                    <h1>Hello Everyone</h1>
-                    <p>We Are Import The Best Medicine In The World.We Are Suggested You The Best Medicine. And Our Medicine Have No Side Effect</p>
+        <div className="banner-container">
+            <main style={{ height: "600px" }} className="row d-flex align-items-center">
+                <div className="col-md-4 offset-md-1"  style={{ color: "black" }}>
+                    <h1>
+                        <h1>ADVENTURE IS WORTWHILE</h1>
+                    </h1>
+                    <h3 style={{color:'black'}}>
+                        DISCOVER NEW PLACES WITH US,ADVENTURE AWAITS
+                    </h3>
                 </div>
-                <div className="banner-img col-md-6">
-                    <img className="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJlj3AS3gczyyMRlmoRH84lfCgo2MhY7n3uQ&usqp=CAU" alt="" />
-                </div>
-            </div>
+            </main>
         </div>
     );
 };
